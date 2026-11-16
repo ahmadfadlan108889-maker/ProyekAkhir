@@ -45,3 +45,14 @@ def camera():
             except Exception as e:
                 print(f"error:{e}")
             
+
+
+        elif key == ord("q"):
+            print("menutup kamera")
+            break
+
+    cap.release()
+    cv2.destroyAllWindows()
+
+if __name__ == "__main__":
+    camera()
