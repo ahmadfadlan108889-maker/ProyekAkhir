@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Asisten Literasi Jurnal Akademik",
+  "version": "1.0",
+  "description": "Penerjemah dan kamus 1 kata instan untuk membaca jurnal akademik.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "sidePanel",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pengaturan Bahasa Jurnal"
+  }
+}

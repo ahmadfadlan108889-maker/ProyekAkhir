@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 240px;
+      padding: 14px;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8f9fa;
+      color: #202124;
+    }
+    h3 {
+      margin: 0 0 10px 0;
+      font-size: 14px;
+      color: #1a73e8;
+    }
+    label {
+      display: block;
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+    select {
+      width: 100%;
+      padding: 6px;
+      border: 1px solid #dadce0;
+      border-radius: 6px;
+      font-size: 13px;
+    }
+    #status {
+      margin-top: 8px;
+      font-size: 12px;
+      color: #188038;
+      min-height: 16px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Asisten Literasi Jurnal</h3>
+  <label for="targetLang">Bahasa Tujuan Terjemahan:</label>
+  <select id="targetLang">
+    <option value="id">Bahasa Indonesia</option>
+    <option value="en">English (Inggris)</option>
+    <option value="ja">日本語 (Jepang)</option>
+    <option value="de">Deutsch (Jerman)</option>
+    <option value="fr">Français (Prancis)</option>
+  </select>
+  <div id="status"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
